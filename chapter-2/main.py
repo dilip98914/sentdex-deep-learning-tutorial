@@ -21,7 +21,8 @@ pickle_in=open('y.pickle','rb')
 y=pickle.load(pickle_in)
 
 
-
+# normalizing the image data
+x=x/255.0
 
 
 model=Sequential()
